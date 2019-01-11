@@ -1,2 +1,3 @@
-# zenith-test-complete
-A fully documented TestComplete framework (a forrunner to pyrethrum) - no longer maintained 
+# Zenith for Test Complete
+
+A fully documented TestComplete framework (a forerunner to pyrethrum) - no longer maintained 
