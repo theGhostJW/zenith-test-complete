@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="_" key="{C42FE968-B479-4B7B-9691-07F1D6ADB5B6}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\_.sj" />
+		</child>
+		<child name="_EndPoints" key="{FA965898-1B56-466C-B3F8-16C8E81B190D}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\_EndPoints.sj" />
+		</child>
+		<child name="_Private" key="{D7BCB66A-9563-42A1-9038-B3AD507D4140}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\_Private.sj" />
+		</child>
+		<child name="CheckUtils" key="{B8DE3F7B-43EC-4A38-9E4C-48BFDEFB9A75}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\CheckUtils.sj" />
+		</child>
+		<child name="CheckUtilsEndPoints" key="{D715F9AF-76F5-4706-9D3D-5F424AF134FB}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\CheckUtilsEndPoints.sj" />
+		</child>
+		<child name="CheckUtilsPrivate" key="{E93A5B36-5523-499D-BF87-A87DDA985DE0}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\CheckUtilsPrivate.sj" />
+		</child>
+		<child name="DataEntryUtils" key="{7CCC8EDD-D0FD-4D14-AC24-032AF363D8BB}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\DataEntryUtils.sj" />
+		</child>
+		<child name="DataEntryUtilsEndPoints" key="{0392F90C-B5E8-475A-BDF8-4050BB44EFE2}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\DataEntryUtilsEndPoints.sj" />
+		</child>
+		<child name="DataEntryUtilsPrivate" key="{858C33B1-DC51-4AC0-80AC-393F70F08AAF}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\DataEntryUtilsPrivate.sj" />
+		</child>
+		<child name="DateTimeUtils" key="{FC4785FF-4C67-4B27-B874-D3631899D928}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\DateTimeUtils.sj" />
+		</child>
+		<child name="DateTimeUtilsEndPoints" key="{71746EF6-7B5C-40FD-8B25-74402B2D889A}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\DateTimeUtilsEndPoints.sj" />
+		</child>
+		<child name="ExcelDataConnectionUtils" key="{14878460-6DD4-42EF-AC8F-99E417D26495}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\ExcelDataConnectionUtils.sj" />
+		</child>
+		<child name="ExcelDataConnectionUtilsEndPoints" key="{703845C8-030A-4F21-A5FF-0B79017ECC2A}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\ExcelDataConnectionUtilsEndPoints.sj" />
+		</child>
+		<child name="ExcelParamsLoaderUtils" key="{204E9C4B-1128-4974-B10A-611E6EF9CAAC}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\ExcelParamsLoaderUtils.sj" />
+		</child>
+		<child name="ExcelParamsLoaderUtilsPrivate" key="{4410DF53-F030-45C8-ABB1-51BF7D3B7516}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\ExcelParamsLoaderUtilsPrivate.sj" />
+		</child>
+		<child name="FileUtils" key="{33C6652B-1894-4ABD-B24E-458B6DB887FE}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\FileUtils.sj" />
+		</child>
+		<child name="FileUtilsEndPoints" key="{89B4BC6F-97A4-4EF1-BD34-BB4A7C166790}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\FileUtilsEndPoints.sj" />
+		</child>
+		<child name="FileUtilsPrivate" key="{E4FE7557-5205-4AB6-85BD-6409FBFC41D3}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\FileUtilsPrivate.sj" />
+		</child>
+		<child name="Main" key="{023F8994-0BA7-4E6B-9567-8298F5B9C240}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Main.sj" />
+		</child>
+		<child name="MainPrivate" key="{2E04C917-322B-49F6-80B7-B6EDCDE50E50}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="MainPrivate.sj" />
+		</child>
+		<child name="ReflectionUtils" key="{F91C2206-0CFB-4908-8250-CD2006494ACE}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\ReflectionUtils.sj" />
+		</child>
+		<child name="ReflectionUtilsEndPoints" key="{1482E57E-505E-47EE-AE6E-9A00B8BDCEF5}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\ReflectionUtilsEndPoints.sj" />
+		</child>
+		<child name="ReflectionUtilsPrivate" key="{3D1A8A82-F363-403C-B857-BB1F0D295B5F}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\ReflectionUtilsPrivate.sj" />
+		</child>
+		<child name="ReflectionUtilsPrivateEndPoints" key="{63C27AAD-FF53-4A05-BB35-13A5D67C6E63}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\ReflectionUtilsPrivateEndPoints.sj" />
+		</child>
+		<child name="SimplifiedLogUtils" key="{9196C737-5613-4E4B-B911-B5686EE64817}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\SimplifiedLogUtils.sj" />
+		</child>
+		<child name="SimplifiedLogUtilsPrivate" key="{F2036EB0-62FA-482C-BBA2-4CFF80332179}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\SimplifiedLogUtilsPrivate.sj" />
+		</child>
+		<child name="StringUtils" key="{08874A95-16D1-48A7-81BB-D01B2B6BA0C1}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\StringUtils.sj" />
+		</child>
+		<child name="StringUtilsEndPoints" key="{D122BE82-5292-4AB1-BEAA-42EE6C63DF12}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\StringUtilsEndPoints.sj" />
+		</child>
+		<child name="StringUtilsGrandParent" key="{04715B4D-CB2B-4439-8DA3-6F384F47CCB7}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\StringUtilsGrandParent.sj" />
+		</child>
+		<child name="StringUtilsGreatGrandParent" key="{0F10BF10-7E9A-4180-9811-3AD2B0FB3818}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\StringUtilsGreatGrandParent.sj" />
+		</child>
+		<child name="StringUtilsParent" key="{16EC55C8-BD7B-4534-B35C-947C5953BFF7}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\StringUtilsParent.sj" />
+		</child>
+		<child name="StringUtilsPrivate" key="{13966313-B81A-4F2F-A4AA-DADF13F3EBAA}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\StringUtilsPrivate.sj" />
+		</child>
+		<child name="SysUtils" key="{58200FF1-457D-44F0-886E-3EC9FC738065}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\SysUtils.sj" />
+		</child>
+		<child name="SysUtilsEndPoints" key="{A2B68BF6-BE7B-44E0-8D6C-BA551FB505D8}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\SysUtilsEndPoints.sj" />
+		</child>
+		<child name="SysUtilsGrandParent" key="{22DFC28A-1A96-4F69-A548-834612B245A3}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\SysUtilsGrandParent.sj" />
+		</child>
+		<child name="SysUtilsParent" key="{79649598-0971-470D-A82C-F421B0F222D1}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\SysUtilsParent.sj" />
+		</child>
+		<child name="SysUtilsPrivate" key="{342B9806-AA3E-4963-80B4-691EDA023BD0}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\SysUtilsPrivate.sj" />
+		</child>
+		<child name="SysUtilsPrivateEndPoints" key="{DBE578D3-D192-4AC1-A296-E9257C0B796F}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\SysUtilsPrivateEndPoints.sj" />
+		</child>
+		<child name="TestScript1" key="{9F195CA7-A51C-4A0B-927B-9F20957A844A}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\TestData\TestScript1.sj" />
+		</child>
+		<child name="ToReadableUtils" key="{A6885B8C-03C9-4897-A792-4C6B40B31607}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\ToReadableUtils.sj" />
+		</child>
+		<child name="WebUtils" key="{009A1970-AA57-4FA0-9225-45933C2B3DCF}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\WebUtils.sj" />
+		</child>
+		<child name="WebUtilsEndPoints" key="{45CAC943-DC41-4F91-A167-A1BB9FB78A03}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\WebUtilsEndPoints.sj" />
+		</child>
+		<child name="WebUtilsPrivate" key="{66763A06-56C4-41DF-AC6D-4EF55E85197A}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\WebUtilsPrivate.sj" />
+		</child>
+		<child name="EndPointLauncherUtils" key="{6C8E01E6-ECC1-4B72-B708-B4F153282B80}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\EndPointLauncherUtils.sj" />
+		</child>
+		<child name="XmlToJsonUtils" key="{AC318928-9A53-4CB6-97E0-47A81A565D01}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\XmlToJsonUtils.sj" />
+		</child>
+		<child name="XmlToJsonUtilsEndPoints" key="{CF82624B-CF73-4F99-B1E0-1ED08A52B5E4}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\XmlToJsonUtilsEndPoints.sj" />
+		</child>
+		<child name="XmlToJsonUtilsPrivate" key="{0B8669C3-6CDB-44FE-93D1-B989B4BAF430}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\..\..\Utils\XmlToJsonUtilsPrivate.sj" />
+		</child>
+	</children>
+	<folders>
+		<folder caption="Utilities" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{14878460-6DD4-42EF-AC8F-99E417D26495}" />
+				<ref key="{D715F9AF-76F5-4706-9D3D-5F424AF134FB}" />
+				<ref key="{F91C2206-0CFB-4908-8250-CD2006494ACE}" />
+				<ref key="{A6885B8C-03C9-4897-A792-4C6B40B31607}" />
+				<ref key="{45CAC943-DC41-4F91-A167-A1BB9FB78A03}" />
+				<ref key="{1482E57E-505E-47EE-AE6E-9A00B8BDCEF5}" />
+				<ref key="{204E9C4B-1128-4974-B10A-611E6EF9CAAC}" />
+				<ref key="{C42FE968-B479-4B7B-9691-07F1D6ADB5B6}" />
+				<ref key="{FA965898-1B56-466C-B3F8-16C8E81B190D}" />
+				<ref key="{D122BE82-5292-4AB1-BEAA-42EE6C63DF12}" />
+				<ref key="{9196C737-5613-4E4B-B911-B5686EE64817}" />
+				<ref key="{E93A5B36-5523-499D-BF87-A87DDA985DE0}" />
+				<ref key="{63C27AAD-FF53-4A05-BB35-13A5D67C6E63}" />
+				<ref key="{703845C8-030A-4F21-A5FF-0B79017ECC2A}" />
+				<ref key="{22DFC28A-1A96-4F69-A548-834612B245A3}" />
+				<ref key="{009A1970-AA57-4FA0-9225-45933C2B3DCF}" />
+				<ref key="{A2B68BF6-BE7B-44E0-8D6C-BA551FB505D8}" />
+				<ref key="{FC4785FF-4C67-4B27-B874-D3631899D928}" />
+				<ref key="{58200FF1-457D-44F0-886E-3EC9FC738065}" />
+				<ref key="{71746EF6-7B5C-40FD-8B25-74402B2D889A}" />
+				<ref key="{E4FE7557-5205-4AB6-85BD-6409FBFC41D3}" />
+				<ref key="{16EC55C8-BD7B-4534-B35C-947C5953BFF7}" />
+				<ref key="{858C33B1-DC51-4AC0-80AC-393F70F08AAF}" />
+				<ref key="{33C6652B-1894-4ABD-B24E-458B6DB887FE}" />
+				<ref key="{B8DE3F7B-43EC-4A38-9E4C-48BFDEFB9A75}" />
+				<ref key="{342B9806-AA3E-4963-80B4-691EDA023BD0}" />
+				<ref key="{66763A06-56C4-41DF-AC6D-4EF55E85197A}" />
+				<ref key="{3D1A8A82-F363-403C-B857-BB1F0D295B5F}" />
+				<ref key="{04715B4D-CB2B-4439-8DA3-6F384F47CCB7}" />
+				<ref key="{D7BCB66A-9563-42A1-9038-B3AD507D4140}" />
+				<ref key="{DBE578D3-D192-4AC1-A296-E9257C0B796F}" />
+				<ref key="{0392F90C-B5E8-475A-BDF8-4050BB44EFE2}" />
+				<ref key="{7CCC8EDD-D0FD-4D14-AC24-032AF363D8BB}" />
+				<ref key="{79649598-0971-470D-A82C-F421B0F222D1}" />
+				<ref key="{89B4BC6F-97A4-4EF1-BD34-BB4A7C166790}" />
+				<ref key="{13966313-B81A-4F2F-A4AA-DADF13F3EBAA}" />
+				<ref key="{0F10BF10-7E9A-4180-9811-3AD2B0FB3818}" />
+				<ref key="{F2036EB0-62FA-482C-BBA2-4CFF80332179}" />
+				<ref key="{08874A95-16D1-48A7-81BB-D01B2B6BA0C1}" />
+				<ref key="{4410DF53-F030-45C8-ABB1-51BF7D3B7516}" />
+				<ref key="{6C8E01E6-ECC1-4B72-B708-B4F153282B80}" />
+				<ref key="{AC318928-9A53-4CB6-97E0-47A81A565D01}" />
+				<ref key="{CF82624B-CF73-4F99-B1E0-1ED08A52B5E4}" />
+				<ref key="{0B8669C3-6CDB-44FE-93D1-B989B4BAF430}" />
+			</references>
+		</folder>
+		<folder caption="ScriptsForTesting" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{9F195CA7-A51C-4A0B-927B-9F20957A844A}" />
+			</references>
+		</folder>
+	</folders>
+</Root>

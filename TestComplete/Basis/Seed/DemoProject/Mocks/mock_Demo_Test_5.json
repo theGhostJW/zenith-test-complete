@@ -1,0 +1,27 @@
+{
+  "test item": {
+    "id": 5,
+    "when": "4",
+    "then": "44",
+    "message": "item 3",
+    "toDo": "Need to think of some more validation here"
+  },
+  "application state": {
+    "details": {
+      "sqlExecuted": "A very big sql string"
+    },
+    "importantProp": "An important prop should go to top",
+    "id": 5,
+    "message": "item 3"
+  },
+  "validation": {
+    "demo validation will fail": [
+      {
+        "type": "error",
+        "message": "Check - force fail disabled",
+        "additionalText": "Check force fail disabled"
+      }
+    ],
+    "another validation": "passed"
+  }
+}

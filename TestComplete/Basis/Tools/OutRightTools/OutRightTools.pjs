@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{40469B0F-B7FA-46F1-98D5-CBCAE6B7BA7F}">
+	<children>
+		<child name="DocumentationGenerator" key="{75909E3F-EDCE-4AA7-9FFB-682C0CF28F44}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="DocumentationGenerator\DocumentationGenerator.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{20FA9E0A-8148-4504-BD90-E7BF8262FE91}">
+		<children>
+			<testItem key="{75909E3F-EDCE-4AA7-9FFB-682C0CF28F44}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{4A6F48E8-0043-4D66-A2C2-FDE5ECDF07F8}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{39D494C4-214D-40D7-84C3-62ED907E8792}" />
+	<scc key="{F94BA630-5BEE-4053-86BD-D0BE3217873D}" name="Mercurial Plugin">
+		<data />
+	</scc>
+</Root>

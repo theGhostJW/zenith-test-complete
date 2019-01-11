@@ -1,0 +1,43 @@
+//USEUNIT TestRunner
+//USEUNIT SysUtils
+
+var configuration = {
+  testId: null,
+  when: 'Action',
+  then: 'reaction',
+  dataSource: 'DataClassGenTest', 
+  country: ['NZ'],
+  owner: 'Li',
+  dummy: true,
+  enabled: true,
+  blockedNotes: bigString(function(){
+      /*
+          This is where you could put blocked notes - information about why the 
+          test cannot be finished yet.
+      */
+  })
+  
+  
+  };
+
+function testCase(runConfig, testConfig, iteration, params){
+  var greet = ['Hello', 'World'];
+  _.each(greet, logBold);
+   
+   Log.Message("Dummy Test - test case ID: " + testConfig.testId);
+   throw("I don't want to run dummy 3");
+}
+
+function config(){return configuration}
+
+function testCaseEndPoint(){
+  runTestCaseEndPoint(configuration);
+}
+
+function acceptClientMachine(runConfig, testConfig){
+  return true;
+}
+
+function acceptIteration(runConfig, testConfig, iteration, params){
+  return true;
+}

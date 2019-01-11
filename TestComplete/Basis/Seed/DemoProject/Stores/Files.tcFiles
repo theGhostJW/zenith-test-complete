@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" version="12.0">
+	<children>
+		<child name="expected" key="{EAD3B926-BB6E-488E-B5C9-7B32D5255F6F}" type="File" typeId="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" pluginName="Stores">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="12.0" caption="expected" ID="{EAD3B926-BB6E-488E-B5C9-7B32D5255F6F}" FileName="..\..\Temp\ExpectedTxtCompare.txt" Update="False" />
+		</child>
+		<child name="actual" key="{1281373B-6AC4-4862-AE8A-36024CDD8A8E}" type="File" typeId="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" pluginName="Stores">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="12.0" caption="actual" ID="{1281373B-6AC4-4862-AE8A-36024CDD8A8E}" FileName="..\..\Temp\actual.txt" Update="False" />
+		</child>
+	</children>
+	<folders />
+</Root>

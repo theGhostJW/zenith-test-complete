@@ -1,0 +1,26 @@
+{
+  "test item": {
+    "id": 3,
+    "when": "2",
+    "then": "22",
+    "message": "item 1"
+  },
+  "application state": {
+    "details": {
+      "sqlExecuted": "A very big sql string"
+    },
+    "importantProp": "An important prop should go to top",
+    "id": 3,
+    "message": "item 1"
+  },
+  "validation": {
+    "demo validation": [
+      {
+        "type": "error",
+        "message": "Check - make sure id is less than 2",
+        "additionalText": "blahh"
+      }
+    ],
+    "another validation": "passed"
+  }
+}

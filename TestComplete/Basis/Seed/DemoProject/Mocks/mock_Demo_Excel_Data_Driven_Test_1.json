@@ -1,0 +1,11 @@
+{
+  "test item": {
+    "id": 1,
+    "toDo": "add some validations to this"
+  },
+  "application state": {
+    "id": "Singlton test id will be null",
+    "message": "Hello from singleton test"
+  },
+  "validation": "Item Has No Validations"
+}

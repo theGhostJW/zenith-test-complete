@@ -1,0 +1,20 @@
+[
+  " 05-Dec 22:20:57: FILTER LOG\n==== All Filters ====\nisEnabled\ncountryCheck\ndummyCheck\nisInTestList\n\n==== Filter Results ====\n-3: Dummy_Array_Data_Driven_HOF_Test - Accepted\n-2: Dummy_Array_Data_Driven_Test - Accepted\n-11: Dummy_Deferred_Validation_Test - Rejected: isInTestList\n-1: Dummy_Excel_Data_Driven_Test - Rejected: isInTestList\n-5: Dummy_Hello_Test - Accepted\n-6: Dummy_Test - Rejected: isEnabled\n-7: Dummy_Message_Test - Rejected: isInTestList\n0: Dummy_With_Defect_Test - Accepted",
+  " 05-Dec 22:20:57: === Start Test: Dummy_Array_Data_Driven_HOF_Test id: -3 parameterised test:  iteration: 0 - When a test is driven by an array then it completes as expected ===",
+  " 05-Dec 22:20:57: End Test",
+  " 05-Dec 22:20:58: === Start Test: Dummy_Array_Data_Driven_HOF_Test id: -3 parameterised test:  iteration: 1 - When a test is driven by an array then it completes as expected ===",
+  " 05-Dec 22:20:58: End Test",
+  " 05-Dec 22:20:58: === Start Test: Dummy_Array_Data_Driven_HOF_Test id: -3 parameterised test:  iteration: 2 - When a test is driven by an array then it completes as expected ===",
+  " 05-Dec 22:20:58: End Test",
+  " 05-Dec 22:20:59: === Start Test: Dummy_Array_Data_Driven_Test id: -2 parameterised test:  iteration: 1 - When a test is driven by an array then it completes as expected ===",
+  " 05-Dec 22:20:59: ERROR: This is an error",
+  " 05-Dec 22:21:00: End Test",
+  " 05-Dec 22:21:01: === Start Test: Dummy_Hello_Test id: -5 - When Action then reaction ===",
+  " 05-Dec 22:21:01: ERROR: Exception Encountered in Test - Dummy_Hello_Test ERROR: I don't want to run dummy 3",
+  " 05-Dec 22:21:02: End Test",
+  " 05-Dec 22:21:43: === Start Test: Dummy_With_Defect_Test id: 0 - When I do this then that happens ===",
+  " 05-Dec 22:21:43: Defect Expected: 123 Active: True",
+  " 05-Dec 22:21:43: ERROR: I hate carrots",
+  " 05-Dec 22:21:44: End Defect Expected",
+  " 05-Dec 22:21:44: End Test"
+]

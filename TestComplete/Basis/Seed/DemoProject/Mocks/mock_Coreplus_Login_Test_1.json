@@ -1,0 +1,23 @@
+{
+  "test item": {
+    "id": 1,
+    "when": "username and password are invalid",
+    "then": "an error message is returned on login",
+    "userName": "notARealUser",
+    "password": "notArealPassword"
+  },
+  "application state": {
+    "details": {},
+    "mainTableText": "You could not be logged on to ISA Server. Make sure that your domain name, user name, and password are correct, and then try again.\nWelcome back to coreplus, please enter your login details below.\nHave a great day!\nSecurity\n(\nshow explanation\nhide explanation\n)\nThis is a public or shared computer\nSelect this option if you are connecting from a public computer. Be sure to log off and close all browser windows to end your session. Read about the\nsecurity risks\nof using a public computer.\nThis is a private computer\nSelect this option if you are the only person using this computer. This option provides additional time of inactivity before automatically logging you off.\nI want to change my password after logging on\nWith this option selected, a page used to change your password will be displayed after your credentials are submitted.\nBy logging on to coreplus, you will be deemed to have agreed to the\nclickwrap license agreement\nand\nwebsite terms and conditions\nUsername:\nPassword:\nCookies are currently disabled by your browser settings. To access this Web site, cookies must be enabled.\nFollow these directions to enable cookies (Microsoft Internet Explorer 6 or later): In Internet Explorer, on the Tools menu, click Internet Options. Click the Privacy tab, then click Sites. In Address of Web site, type the complete address of this Web site. For example, http://www.microsoft.com. Then click Allow.\ncoreplus was previously known as OPMS. To read about the new brand,\nclick here\n\u00a9 2007-2014 coreplus (Intracore Online Solutions)",
+    "interactor warnings": "Another instance of Firefox is already running."
+  },
+  "validation": {
+    "check screen has expected text": [
+      {
+        "type": "error",
+        "message": "Contains Check - true ...",
+        "additionalText": "Contains Check Failed - Maake sure that your domain name, user name, and password are correct, and then try again. not found."
+      }
+    ]
+  }
+}

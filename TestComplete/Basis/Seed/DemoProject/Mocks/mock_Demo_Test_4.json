@@ -1,0 +1,16 @@
+{
+  "test item": {
+    "id": 4,
+    "when": "3",
+    "then": "33",
+    "message": "item 2",
+    "toDo": "Need to think of some more validation here"
+  },
+  "application state": {
+    "id": 4,
+    "message": "item 2"
+  },
+  "validation": {
+    "doNothing": "passed"
+  }
+}

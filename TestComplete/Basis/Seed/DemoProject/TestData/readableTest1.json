@@ -1,0 +1,22 @@
+{
+  "resultSaved": "12-Dec 09:00:53",
+  "params": {
+    "id": 2,
+    "when": "2",
+    "then": "22",
+    "message": "iteration 1"
+  },
+  "application state": {
+    "id": 2,
+    "message": "iteration 1"
+  },
+  "validation": {
+    "demo validation": [
+      {
+        "type": "Error",
+        "message": "Check - make sure id is less than 2"
+      }
+    ],
+    "another validation": "Passed"
+  }
+}

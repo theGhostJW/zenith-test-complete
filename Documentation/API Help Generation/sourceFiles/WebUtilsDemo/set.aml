@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="lamdahof_api_set" revisionNumber="1">
+  <developerSampleDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!--
+    <summary>
+      <para>Optional summary abstract</para>
+    </summary>
+    -->
+    <introduction>
+      <!-- Uncomment this to generate an outline of the section and sub-section
+           titles.  Specify a numeric value as the inner text to limit it to
+           a specific number of sub-topics when creating the outline.  Specify
+           zero (0) to limit it to top-level sections only.  -->
+      <!-- <autoOutline /> -->
+            <markup>
+<font face="courier new" size="4" weight="bold"><!-- #declaration -->set(uiObj, value, errorMessage, wantSet)<!-- # --></font><br/><br/>
+</markup>
+      <!-- #introduction -->
+      <para>Sets the value of an object. Logs an error if the object type is not handled by set. <externalLink>
+          <linkText>SHFB on GitHub</linkText>
+          <linkAlternateText>Go to GitHub</linkAlternateText>
+          <linkUri>https://GitHub.com/EWSoftware/SHFB</linkUri>
+      </externalLink></para>
+      <!-- # -->
+
+     
+
+    </introduction>
+    <!-- <procedure>Optional procedures.  See How To document for procedure layout example.</procedure> -->
+    <!-- <requirements>Optional requirements section</requirements> -->
+    <!-- <demonstrates>Optional info about what is demonstrated</demonstrates> -->
+    <!-- Add one or more top-level section elements.  These are collapsible.
+         If using <autoOutline />, add an address attribute to identify it
+         and specify a title so that it can be jumped to with a hyperlink. -->
+    
+    <!-- #parameters -->
+    <section address="Parameters">
+      <title>Parameters</title>
+		<content>
+		<table>
+		<tableHeader>
+		<row>
+		<entry><para>Name</para></entry>
+		<entry><para>Type</para></entry>
+		<entry><para>Required</para></entry>
+		<entry><para>Default</para></entry>
+		<entry><para>Description</para></entry>
+		</row>
+		</tableHeader>
+		<row>
+		<entry><para>uiObj</para></entry>
+		<entry><para>UI Object</para></entry>
+		<entry><para>true</para></entry>
+		<entry><para>N/A</para></entry>
+		<entry><para>the target object</para></entry>
+		</row>
+		<row>
+		<entry><para>value</para></entry>
+		<entry><para>String</para></entry>
+		<entry><para>true</para></entry>
+		<entry><para>N/A</para></entry>
+		<entry><para>the value to set</para></entry>
+		</row>
+		<row>
+		<entry><para>errorMessage</para></entry>
+		<entry><para>String</para></entry>
+		<entry><para>false</para></entry>
+		<entry><para>empty string</para></entry>
+		<entry><para>additional information for error message if not handled</para></entry>
+		</row>
+		<row>
+		<entry><para>wantSet</para></entry>
+		<entry><para>Boolean</para></entry>
+		<entry><para>false</para></entry>
+		<entry><para>true</para></entry>
+		<entry><para>set this flag to false to make the function simply check if the object can be set without actually setting it</para></entry>
+		</row>
+		</table>
+    </content>
+    
+    </section>
+    <!-- # -->
+    <!-- #result -->
+     <section address="Result">
+    <title>Returns</title>
+		<content>
+		<table>
+		<tableHeader>
+		<row>
+		<entry><para>Type</para></entry>
+		<entry><para>Description</para></entry>
+		</row>
+		</tableHeader>
+		<row>
+		<entry><para>Boolean</para></entry>
+		<entry><para>returns true if the object can or was set</para></entry>
+		</row>
+		</table>
+		</content>
+    </section>
+    <!-- # -->
+    <!-- #sampleCode -->
+    <section address="SampleCode">
+    <title>Sample Code</title>
+		<content>
+		<code source="C:\automationFramework\TestComplete\Documentation\API Help Generation\sourceFiles\WebUtilsDemo\Demo.js" language="JavaScript" title="Example"/>
+		</content>
+    </section>
+		<!-- # -->
+    <!-- #relatedTopics -->
+    <relatedTopics>
+      <link xlink:href="lamdahof_api_set2" topicType_id="F9205737-4DEC-4A58-AA69-0E621B1236BD"/>
+      
+      <externalLink>
+          <linkText>SHFB on GitHub</linkText>
+          <linkAlternateText>Go to GitHub</linkAlternateText>
+          <linkUri>https://GitHub.com/EWSoftware/SHFB</linkUri>
+      </externalLink>
+      
+      <!-- One or more of the following:
+           - A local link
+           - An external link
+           - A code entity reference
+
+      <link xlink:href="lamdahof_api_set2"/>
+      <externalLink>
+          <linkText>Link text</linkText>
+          <linkAlternateText>Optional alternate link text</linkAlternateText>
+          <linkUri>URI</linkUri>
+      </externalLink>
+      <codeEntityReference>API member ID</codeEntityReference>
+
+      Examples:
+
+      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8278">Some other topic</link>
+
+      <externalLink>
+          <linkText>SHFB on GitHub</linkText>
+          <linkAlternateText>Go to GitHub</linkAlternateText>
+          <linkUri>https://GitHub.com/EWSoftware/SHFB</linkUri>
+      </externalLink>
+
+      <codeEntityReference>T:TestDoc.TestClass</codeEntityReference>
+      <codeEntityReference>P:TestDoc.TestClass.SomeProperty</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor(System.String,System.Int32)</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.ToString</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.FirstMethod</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.SecondMethod(System.Int32,System.String)</codeEntityReference>
+      -->
+    </relatedTopics>
+    <!-- # -->
+  </developerSampleDocument>
+</topic>

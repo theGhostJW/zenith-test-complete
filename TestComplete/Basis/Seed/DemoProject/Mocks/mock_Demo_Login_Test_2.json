@@ -1,0 +1,24 @@
+{
+  "test item": {
+    "id": 2,
+    "when": "the user name is incorrect",
+    "then": "the user is not able to log in and gets the expected error message",
+    "userName": "Tester1",
+    "password": "test"
+  },
+  "application state": {
+    "details": {},
+    "url": "http://secure.smartbearsoftware.com/samples/testcomplete10/WebOrders/Login.aspx",
+    "error message": "Invalid Login or Password."
+  },
+  "validation": {
+    "log in should have failed": "passed",
+    "error message as expected": [
+      {
+        "type": "warning",
+        "message": "Expected Error: Check - Expected: Invalid Login or Passwoord. did not equal Actual: Invalid Login or Password.",
+        "additionalText": "Expected: Invalid Login or Passwoord.  did not equal Actual: Invalid Login or Password."
+      }
+    ]
+  }
+}

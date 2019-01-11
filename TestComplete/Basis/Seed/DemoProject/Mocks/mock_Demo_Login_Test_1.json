@@ -1,0 +1,23 @@
+{
+  "test item": {
+    "id": 1,
+    "when": "the correct login credentials are used",
+    "then": "the user is able to log in",
+    "userName": "Tester",
+    "password": "test"
+  },
+  "application state": {
+    "details": {},
+    "url": "http://secure.smartbearsoftware.com/samples/testcomplete10/WebOrders/Login.aspx",
+    "error message": "N/A"
+  },
+  "validation": {
+    "logged in successfully": [
+      {
+        "type": "error",
+        "message": "Check - Expected: http://secure.smartbearsoftware.com/samples/TestComplete10/WebOrders/default.aspx did not equal Actual: http://secure.smartbearsoftware.com/samples/testcomplete10/WebOrders/Login.aspx",
+        "additionalText": "Expected: http://secure.smartbearsoftware.com/samples/TestComplete10/WebOrders/default.aspx  did not equal Actual: http://secure.smartbearsoftware.com/samples/testcomplete10/WebOrders/Login.aspx"
+      }
+    ]
+  }
+}

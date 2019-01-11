@@ -1,0 +1,67 @@
+[
+  {
+    "includeReason": "ERRORS / WARNINGS",
+    "resultSaved": "19-Dec 10:00:37",
+    "params": {
+      "id": 2,
+      "when": "2",
+      "then": "22",
+      "message": "iteration 1"
+    },
+    "application state": {
+      "id": 2,
+      "message": "iteration 1"
+    },
+    "validation": {
+      "demo validation": [
+        {
+          "type": "error",
+          "message": "Check - make sure id is less than 2"
+        }
+      ],
+      "another validation": "passed"
+    }
+  },
+  {
+    "includeReason": "TO DO",
+    "resultSaved": "19-Dec 10:00:38",
+    "params": {
+      "id": 3,
+      "when": "3",
+      "then": "33",
+      "message": "iteration 2",
+      "toDo": "Need to think of some more validation here"
+    },
+    "application state": {
+      "id": 3,
+      "message": "iteration 2"
+    },
+    "validation": {
+      "doNothing": "passed"
+    }
+  },
+  {
+    "includeReason": "ERRORS / WARNINGS AND TO DO",
+    "resultSaved": "19-Dec 10:00:39",
+    "params": {
+      "id": 4,
+      "when": "4",
+      "then": "44",
+      "message": "iteration 3",
+      "toDo": "Need to think of some more validation here"
+    },
+    "application state": {
+      "id": 4,
+      "message": "iteration 3"
+    },
+    "validation": {
+      "demo validation": [
+        {
+          "type": "error",
+          "message": "Check - make sure id is less than 2"
+        }
+      ],
+      "another validation": "passed"
+    }
+  }
+]

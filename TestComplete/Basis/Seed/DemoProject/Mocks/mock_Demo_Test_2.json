@@ -1,0 +1,23 @@
+{
+  "test item": {
+    "id": 2,
+    "when": "1",
+    "then": "11",
+    "message": "item 1"
+  },
+  "application state": {
+    "details": {},
+    "importantProp": "An important prop should go to top",
+    "id": 2,
+    "message": "item 1"
+  },
+  "validation": {
+    "demo validation": [
+      {
+        "type": "error",
+        "message": "Check - make sure id is less than 2",
+        "additionalText": "Check make sure id is less than 2"
+      }
+    ]
+  }
+}

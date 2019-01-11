@@ -1,0 +1,6 @@
+{
+  "country":"all",
+  "tests":["DummyTest",
+  "Dummy2Test",
+  "Dummy4Test"]
+}

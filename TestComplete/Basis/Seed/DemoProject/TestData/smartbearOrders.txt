@@ -1,0 +1,12 @@
+Product:*|ScreenSaver 
+Quantity:*|1
+Price per unit:|30
+Discount:|15   
+Customer name:*|Julie Smith
+Street:*|MyStreet
+City:*|melbourn
+State:|vic
+Zip:*|3126
+Card:*|MasterCard
+Card Nr:|1234567890
+Expire date (mm/yy):|15/07

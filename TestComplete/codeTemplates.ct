@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Prp name="val2x19" type="S" value="//USEUNIT EndPointLauncherUtils"/>
+		<Prp name="val0x19" type="S" value="uuEndPointLauncher"/>
+		<Prp name="val1x19" type="S" value="EndPointLauncher"/>
+		<Prp name="val0x13" type="S" value="bigString"/>
+		<Prp name="val1x13" type="S" value="bigString"/>
+		<Prp name="val2x13" type="S" value="bigString(function(){&#xA;   /*&#xA;   |&#xA;   */&#xA;});"/>
+		<Prp name="val2x1" type="S" value="switch ( | ) {&#xA;  case :&#xA;&#xA;    break;&#xA;&#xA;  case :&#xA;&#xA;    break;&#xA;&#xA;  default:&#xA;}"/>
+		<Prp name="val2x3" type="S" value="do {&#xA;&#xA;} while (|);&#xA;"/>
+		<Prp name="val2x2" type="S" value="try {&#xA;  |&#xA;}&#xA;catch () {&#xA;&#xA;}"/>
+		<Prp name="val0x4" type="S" value="tryf"/>
+		<Prp name="val0x3" type="S" value="dow"/>
+		<Prp name="val1x4" type="S" value="try catch finally statement"/>
+		<Prp name="type" type="I" value="6"/>
+		<Prp name="val1x3" type="S" value="do while statement"/>
+		<Prp name="val2x4" type="S" value="try {&#xA;  |&#xA;}&#xA;catch () {&#xA;&#xA;}&#xA;finally {&#xA;&#xA;}"/>
+		<Prp name="val0x5" type="S" value="unitTest"/>
+		<Prp name="rowindex" type="I" value="0"/>
+		<Prp name="val1x5" type="S" value="Unit Test"/>
+		<Prp name="val2x5" type="S" value="function |UnitTest() {&#xA;&#xA;}"/>
+		<Prp name="colindex" type="I" value="1"/>
+		<Prp name="colcount" type="I" value="3"/>
+		<Prp name="col0type" type="I" value="5"/>
+		<Prp name="val0x6" type="S" value="endPoint"/>
+		<Prp name="val1x6" type="S" value="endPoint"/>
+		<Prp name="col0enabled" type="B" value="-1"/>
+		<Prp name="val2x6" type="S" value="function |EndPoint() {&#xA;&#xA;}"/>
+		<Prp name="col1type" type="I" value="5"/>
+		<Prp name="val0x7" type="S" value="func"/>
+		<Prp name="col1enabled" type="B" value="-1"/>
+		<Prp name="val1x7" type="S" value="function"/>
+		<Prp name="val2x7" type="S" value="function |(){&#xA;&#xA;}"/>
+		<Prp name="col2type" type="I" value="5"/>
+		<Prp name="val0x8" type="S" value="uu"/>
+		<Prp name="col2enabled" type="B" value="-1"/>
+		<Prp name="val1x8" type="S" value="Use Unit"/>
+		<Prp name="val2x8" type="S" value="//USEUNIT |"/>
+		<Prp name="val1x0" type="S" value="switch statement"/>
+		<Prp name="val0x0" type="S" value="switch"/>
+		<Prp name="val0x9" type="S" value="for"/>
+		<Prp name="val0x1" type="S" value="switchd"/>
+		<Prp name="val1x9" type="S" value="for"/>
+		<Prp name="val1x1" type="S" value="switch statement (with default)"/>
+		<Prp name="val2x9" type="S" value="for (var counter = 0; counter &lt; |; counter++){&#xA;      &#xA;}"/>
+		<Prp name="val0x2" type="S" value="try"/>
+		<Prp name="val2x0" type="S" value="switch ( | ) {&#xA;  case :&#xA;&#xA;    break;&#xA;&#xA;  case :&#xA;&#xA;    break;&#xA;}&#xA;"/>
+		<Prp name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}" type="I" value="1"/>
+		<Prp name="val1x2" type="S" value="try statement"/>
+		<Prp name="rowcount" type="I" value="20"/>
+		<Prp name="val2x12" type="S" value="//USEUNIT SysUtils&#xA;//USEUNIT TestRunner&#xA;//USEUNIT WebUtils&#xA;//USEUNIT CheckUtils&#xA;&#xA;var RESTART_CONFIGURATION = {&#xA;  id: null&#xA;}&#xA;&#xA;function rollOver(runConfig, paramStr){&#xA;&#xA;}&#xA;&#xA;function rollOverEndPoint() {&#xA;  var runConfig = defaultRunConfigInfo();&#xA;  rollOver(runConfig, '');&#xA;}&#xA;&#xA;function goHome(runConfig, paramStr){&#xA;&#xA;}&#xA;&#xA;function goHomeEndPoint(){&#xA;  var runConfig = defaultRunConfigInfo();&#xA;  goHome(runConfig, '');&#xA;}&#xA;&#xA;function isHome(runConfig, paramStr){&#xA;  return true;&#xA;}&#xA;&#xA;function isHomeEndPoint() {&#xA;  var runConfig = defaultRunConfigInfo();&#xA;  var result = isHome(runConfig, '');&#xA;}&#xA;&#xA;function close(runConfig, paramStr){&#xA;&#xA;}&#xA;&#xA;function closeEndPoint() {&#xA;  var runConfig = defaultRunConfigInfo();&#xA;  close(runConfig, '');&#xA;}&#xA;&#xA;function stateChangeEndPoint() {&#xA;  var runConfig = defaultRunConfigInfo();&#xA;  var paramStr = '';&#xA;  var result;&#xA;  &#xA;  goHome(runConfig);&#xA;  result = isHome(runConfig, paramStr);&#xA;  check(result);&#xA;  &#xA;  close(runConfig, paramStr);&#xA;}&#xA;&#xA;(function register(){&#xA;  registerTestRunElement(RESTART_CONFIGURATION);&#xA;}())"/>
+		<Prp name="val1x11" type="S" value="documentation text"/>
+		<Prp name="val0x11" type="S" value="dt"/>
+		<Prp name="val0x12" type="S" value="restart"/>
+		<Prp name="val1x12" type="S" value="restart"/>
+		<Prp name="val1x10" type="S" value="while"/>
+		<Prp name="val2x10" type="S" value="while (|) {&#xA;&#xA;} &#xA;"/>
+		<Prp name="val0x10" type="S" value="while"/>
+		<Prp name="val2x11" type="S" value="/**&#xA;&#xA;?????_NO_DOC_?????&#xA;&#xA;== Params ==&#xA;PARAM_NAME_?????_NO_DOC_?????: DATA_TYPE_?????_NO_DOC_????? -  Required/Optional - Default: ?????_NO_DOC_????? - DESCRIPTION_?????_NO_DOC_?????&#xA;== Return ==&#xA;DATA_TYPE_?????_NO_DOC_????? - DESCRIPTION_?????_NO_DOC_?????&#xA;== Related ==&#xA;?????_NO_DOC_?????&#xA;**/"/>
+		<Prp name="val1x14" type="S" value="toDo"/>
+		<Prp name="val1x15" type="S" value="test case template"/>
+		<Prp name="val0x15" type="S" value="testCase"/>
+		<Prp name="val2x14" type="S" value="// TODO 0 -c -o :|"/>
+		<Prp name="val0x14" type="S" value="toDo"/>
+		<Prp name="val2x15" type="S" value="//USEUNIT TestRunner&#xA;//USEUNIT SysUtils&#xA;//USEUNIT StringUtils&#xA;//USEUNIT FileUtils&#xA;//USEUNIT _&#xA;//USEUNIT CheckUtils&#xA;//USEUNIT WebUtils&#xA;//USEUNIT EndPointLauncherUtils&#xA;&#xA;var TEST_CONFIGURATION  = {&#xA;  id: null,&#xA;  when: '',&#xA;  then: '',&#xA;  owner: '',&#xA;  enabled: true&#xA;};&#xA;   &#xA;function testCaseEndPoint(){&#xA;  var testParams = {&#xA;                    testConfig: TEST_CONFIGURATION,&#xA;                    itemSelector: null //1, {otherProp: },  all, topIssue,  lastItemWithValidators&#xA;                    //,mocking: false&#xA;                   };&#xA;  runTestCaseEndPoint(testParams);&#xA;}&#xA;&#xA;function interactor(runConfig, item, apState){&#xA;  &#xA;}&#xA;&#xA;function summarise(runConfig, item, apState){&#xA;  return 'delete this function or return null if you have no summary';&#xA;}&#xA; &#xA;function mockFileNameNoExtension(item, runConfig){&#xA;  // use default naming convention&#xA;  return null;&#xA;}&#xA;&#xA;function demo_validation(apState, item, runConfig){&#xA;  check(true, 'check true');&#xA;}&#xA;&#xA;function testItems(runConfig){&#xA;  return [&#xA;    {&#xA;      id: 1,&#xA;      when: '',&#xA;      then: '',&#xA;      validators: demo_validation&#xA;    }&#xA;  ]&#xA;}&#xA;&#xA;function testItemsEndPoint() {&#xA;  var runConfig = {&#xA;                  };&#xA;  var result = testItems(runConfig);&#xA;}&#xA;&#xA;;(function register(){&#xA;  registerTestRunElement(TEST_CONFIGURATION);&#xA;}())"/>
+		<Prp name="val0x16" type="S" value="uiProps"/>
+		<Prp name="val1x16" type="S" value="common seek props"/>
+		<Prp name="val2x16" type="S" value="{&#xA;   idStr: '|',   &#xA;   ObjectIdentifier: '', &#xA;   ObjectType: '',&#xA;   contentText: '',&#xA;   Visible: 'True'&#xA;}"/>
+		<Prp name="val0x17" type="S" value="validator"/>
+		<Prp name="val1x17" type="S" value="validator function for test item"/>
+		<Prp name="val2x17" type="S" value="function |(apState, item, runConfig){&#xA;  &#xA;}"/>
+		<Prp name="val0x18" type="S" value="tableData"/>
+		<Prp name="val1x18" type="S" value="tableData"/>
+		<Prp name="val2x18" type="S" value="//USEUNIT StringUtils&#xA;&#xA;function baseData(){&#xA;  return stringToTables(TABLE_TEXT());&#xA;  //if simple single table use below&#xA;  //return stringToTable(TABLE_TEXT());&#xA;}&#xA;&#xA;/*&#xA;Hint:  use NP++ to edit ensure NP++ and TestComplete has tab setting as 2&#xA;  TC:   &lt;Tools&gt;&lt;Options&gt;&lt;Editing&gt;&lt;TabStop Columns&gt;:          2&#xA;  NP++  &lt;Settings&gt; &lt;Preferences&gt; &lt;Tab Settings&gt;&lt;Tab Size&gt;:   2&#xA;*/&#xA;&#xA;function TABLE_TEXT(){&#xA;  return bigString(&#xA;    function(){&#xA;    /*&#xA;==== Test data table(s) below ====&#xA;&#xA;&#xA;==== Test data table(s) above====&#xA;  &#xA;    */&#xA;    })&#xA;};"/>
+	</Node>
+</Nodes>
